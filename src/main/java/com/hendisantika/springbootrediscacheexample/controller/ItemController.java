@@ -12,15 +12,6 @@ import org.springframework.web.bind.annotation.RestController;
 
 import java.util.List;
 
-/**
- * Created by IntelliJ IDEA.
- * Project : spring-boot-redis-cache-example
- * User: hendisantika
- * Email: hendisantika@gmail.com
- * Telegram : @hendisantika34
- * Date: 31/12/20
- * Time: 11.41
- */
 @RestController
 @RequestMapping(path = "/api/items")
 public class ItemController {

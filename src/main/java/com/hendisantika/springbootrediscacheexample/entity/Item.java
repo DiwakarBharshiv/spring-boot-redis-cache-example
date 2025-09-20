@@ -1,15 +1,15 @@
 package com.hendisantika.springbootrediscacheexample.entity;
 
+import java.io.Serializable;
+import java.math.BigDecimal;
+
+import jakarta.persistence.Entity;
+import jakarta.persistence.GeneratedValue;
+import jakarta.persistence.GenerationType;
+import jakarta.persistence.Id;
 import lombok.AllArgsConstructor;
 import lombok.Data;
 import lombok.NoArgsConstructor;
-
-import javax.persistence.Entity;
-import javax.persistence.GeneratedValue;
-import javax.persistence.GenerationType;
-import javax.persistence.Id;
-import java.io.Serializable;
-import java.math.BigDecimal;
 
 /**
  * Created by IntelliJ IDEA.
